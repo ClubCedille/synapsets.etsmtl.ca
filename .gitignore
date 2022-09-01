@@ -1,0 +1,4 @@
+.direnv/
+public/
+.vscode/
+**/.DS_Store

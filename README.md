@@ -1,2 +1,3 @@
-# synapsets.etsmtl.ca
-Site web du club SynapsÉTS
+# SynapsÉTS
+
+Site web du club SynapsÉTS utilisant le thème [Cohub Hugo](https://github.com/StaticMania/hugo-cohub#cohub-hugo).
