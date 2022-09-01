@@ -63,9 +63,8 @@ title = 'Synapse'
   phone = "+(448) 833 5272 332"
 
   [params.map]
-  APIkey = "AIzaSyC9rV6yesIygoVKTD6QLf_iCa9eiIIHqZ0"
-  latitude = "45.4502528"
-  longitude = "-122.783407"
+  latitude = "45.4948"
+  longitude = "73.5623"
   pinImage = "images/pin.png"
 
   # Socail icons
