@@ -2,21 +2,21 @@ baseURL = 'https://synapse.etsmtl.ca'
 languageCode = 'en-us'
 paginate = 6
 theme= "coHub"
-title = 'synapse'
+title = 'Synapse'
  
 [Menu]
   # Main Menu
   [[menu.Main]]
+  name = "Accueil"
+  url= "/Accueil/"
+  weight = 1
+  [[menu.Main]]
   name = "Exibhition"
   url= "#gallery"
-  weight = 1
+  weight = 2
   [[menu.Main]]
   name = "Feature"
   url= "#service"
-  weight = 1
-  [[menu.Main]]
-  name = "About"
-  url= "/about/"
   weight = 3
   [[menu.Main]]
   name = "Blog"
