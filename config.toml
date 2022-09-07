@@ -7,21 +7,21 @@ title = 'Synapse'
 [Menu]
   # Main Menu
   [[menu.Main]]
-  name = "Accueil"
-  url= "/Accueil/"
-  weight = 1
+  name = "Membres"
+  url= "/membres/"
+  weight = 4
   [[menu.Main]]
   name = "Exibhition"
   url= "#gallery"
-  weight = 2
+  weight = 1
   [[menu.Main]]
   name = "Feature"
   url= "#service"
-  weight = 3
+  weight = 2
   [[menu.Main]]
-  name = "Blog"
-  url= "#blog"
-  weight = 4
+  name = "Projet"
+  url= "#projet"
+  weight = 3
   [[menu.Main]]
   name = "Pricing"
   url= "#pricing"
@@ -46,7 +46,7 @@ title = 'Synapse'
   weight = 2
 
 [params]
-  aboutPageURL = "blog"
+  aboutPageURL = "projet"
   contactLink = "contact"
   copyright = "© {year} <a href=\"https://staticmania.com/\" target=\"_blank\">StaticMania </a>"
   fabFormURL =  "https://fabform.io/f/u00kv3-"

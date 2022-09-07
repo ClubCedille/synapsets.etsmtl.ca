@@ -1547,7 +1547,7 @@ $.magnificPopup.registerModule('zoom', {
 /*>>iframe*/
 
 var IFRAME_NS = 'iframe',
-	_emptyPage = '//accueil:blank',
+	_emptyPage = '//membres:blank',
 
 	_fixIframeBugs = function(isShowing) {
 		if(mfp.currTemplate[IFRAME_NS]) {
@@ -1571,7 +1571,7 @@ $.magnificPopup.registerModule(IFRAME_NS, {
 	options: {
 		markup: '<div class="mfp-iframe-scaler">'+
 					'<div class="mfp-close"></div>'+
-					'<iframe class="mfp-iframe" src="//accueil:blank" frameborder="0" allowfullscreen></iframe>'+
+					'<iframe class="mfp-iframe" src="//membres:blank" frameborder="0" allowfullscreen></iframe>'+
 				'</div>',
 
 		srcAction: 'iframe_src',

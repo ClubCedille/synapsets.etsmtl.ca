@@ -6,7 +6,7 @@
         <h1>{{.Title}}</h1>
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="{{ .Site.BaseURL }}">Home</a></li>
+            <li class="breadcrumb-item"><a href="{{ .Site.BaseURL }}">Accueil</a></li>
             <li class="breadcrumb-item active">{{.Title}}</li>
           </ol>
         </nav>
@@ -15,23 +15,23 @@
   </div>
 </section>
 
-<section class="blog">
+<section class="projet">
   <div class="container">
     <div class="row">
       {{ range .Paginator.Pages }}
       <div class="col-lg-4">
-        <article class="blog-post">
-          <img src="{{ .Params.featureImage | absURL }}" alt="blog-images">
-          <div class="blog-content">
+        <article class="projet-post">
+          <img src="{{ .Params.featureImage | absURL }}" alt="projet-images">
+          <div class="projet-content">
             <h3><a href="{{ .Permalink }}">{{ .Title}}</a></h3>
             <p> {{truncate 100 .Summary}} </p>
-            <a class="more" href="{{ .Permalink }}">Read more <span>⟶</span></a>
+            <a class="more" href="{{ .Permalink }}">En savoir plus <span>⟶</span></a>
           </div>
         </article>
       </div>
       {{end}}
       <div class="col-12">
-        <div class="blog-pagination">
+        <div class="projet-pagination">
           {{partial "pagination.html" . }}
         </div>
       </div>
