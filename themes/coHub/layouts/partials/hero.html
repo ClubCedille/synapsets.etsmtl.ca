@@ -1,6 +1,20 @@
 {{with .Site.Data.hero}}
 {{if .enable}}
-  <section class="hero" style="background-image: url( {{ .heroBGimg }} );">
+  <div id="content-body-title" class="body-title">
+    <div id="particles-js"></div>
+      <div class="vertical">
+        <div class="title-synapse">
+          <img src="images/logo-white.png" alt="blabla" width="75%">
+        </div>
+        <a class="scroll-down" href="#hero">
+          <div class="fa-1x">
+            <i class="fa-solid fa-angle-down"></i>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>  
+  <section id="hero" class="hero" style="background-image: url( {{ .heroBGimg }} );">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-12">
