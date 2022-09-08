@@ -1,4 +1,4 @@
-baseURL = 'https://synapse.etsmtl.ca'
+#baseURL = 'https://synapse.etsmtl.ca'
 languageCode = 'en-us'
 paginate = 6
 theme= "coHub"

@@ -160,13 +160,22 @@ $(document).ready(function () {
 });
 
 // Add nav bg
-$(window).on("scroll", function () {
-  if ($(window).scrollTop()) {
-    $(".main-nav").addClass("nav-bg");
+function change(){
+  if ($(window).scrollTop() || window.location.pathname != "/") {
+    if(window.location.pathname == "/" && $(window).scrollTop()<640){
+      document.getElementById("header-title").style.display = "none";
+    } else {
+      $(".main-nav").addClass("nav-bg");
+      document.getElementById("header-title").style.display = "block";
+    }
+    
   } else {
     $(".main-nav").removeClass("nav-bg");
+    document.getElementById("header-title").style.display = "none";
   }
-});
+};
+window.onload=window.onscroll=change;
+
 // G-Map
 /**
  * Created by Kausar on 06/10/2016.
