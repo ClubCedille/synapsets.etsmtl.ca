@@ -36,8 +36,8 @@ $(document).ready(function () {
     disable: "mobile",
   });
 
-  // Service Item Match Height
-  $(".service-item").matchHeight({
+  // mission Item Match Height
+  $(".mission-item").matchHeight({
     byRow: 0,
   });
 
@@ -45,6 +45,11 @@ $(document).ready(function () {
   $(".projet-content").matchHeight({
     byRow: 0,
   });
+  // .evenement-content Match Height
+  $(".evenement-content").matchHeight({
+    byRow: 0,
+  });
+  
   $(".story-slider").slick({
     dots: true,
     infinite: true,

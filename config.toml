@@ -8,51 +8,47 @@ title = 'Synapse'
 [Menu]
   # Main Menu
   [[menu.Main]]
-  name = "Membres"
-  url= "/membres/"
-  weight = 4
-  [[menu.Main]]
-  name = "Exibhition"
+  name = "Accueil"
   url= "#gallery"
   weight = 1
   [[menu.Main]]
-  name = "Feature"
-  url= "#service"
+  name = "Notre mission"
+  url= "#mission"
   weight = 2
+    [[menu.Main]]
+  name = "Faire un don"
+  url= "#don"
+  weight = 5
+  [[menu.Main]]
+  name = "Évènement"
+  url= "#evenement"
+  weight = 4
   [[menu.Main]]
   name = "Projet"
   url= "#projet"
   weight = 3
   [[menu.Main]]
-  name = "Pricing"
-  url= "#pricing"
-  weight = 5
+  name = "Membres"
+  url= "/membres/"
+  weight = 6
   [[menu.Main]]
   name = "FAQ"
   url= "#faq"
-  weight = 6
+  weight = 7
   [[menu.Main]]
   name = "Contact"
   url= "/contact/"
-  weight = 7
-
-  # Sitemap Menu
-  [[menu.sitemap]]
-  name = "Privacy Policy"
-  url = "/privacy/"
-  weight = 1
-  [[menu.sitemap]]
-  name = "Terms"
-  url = "/terms/"
-  weight = 2
+  weight = 8
 
 [params]
   aboutPageURL = "projet"
   contactLink = "contact"
   copyright = "© {year} <a href=\"https://staticmania.com/\" target=\"_blank\">StaticMania </a>"
-  fabFormURL =  "https://fabform.io/f/u00kv3-"
+  # fabFormURL représente le lien pour envoyer le formulaire sur la page contact. TODO : crée un compte sur https://formspree.io/ pour synapse (API qui va permettre de rediriger le form vers le courriel de synapse)
+  fabFormURL =  "https://fabform.io/f/u00kv3-" 
   googleAnalytics = "G-JZ95FEWF9K"
   logo = "images/logo.png"
+  logowhite = "images/logo-white.png"
   footerlogo = "images/logo.png"
   footerDescription = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit quia ab, natus fugiat voluptas saepe ipsum animi officiis in molestiae?"
 
