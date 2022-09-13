@@ -1,13 +1,13 @@
 ---
-title: "The Difference Between Meeting and Connecting"
-date: 2022-01-06T11:17:17+06:00
-featureImage: images/evenement/evenement-thumb-3.jpg
-tags: ["Marketing", "Web Design"]
+title: "Nouveau site web"
+date: 2022-06-13T11:16:38+06:00
+featureImage: images/evenement/logo.png
+tags: [ "Web Design"]
 ---
   Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eius eum dolor voluptatum autem minima magni soluta reiciendis corrupti, iste odio, minus odit voluptates rerum veritatis nam vel! Odio, totam?
 
   ### A sample heading 
-  
+
   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore mollitia quas maiores, error magnam distinctio doloribus fugiat ea minima incidunt odio facere nam nisi quod nobis aut quae aliquid. Atque voluptas esse voluptate. Placeat laudantium veniam, repellendus laboriosam blanditiis commodi!
   > “Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex deleniti porro impedit iure nisi, eius sapiente dolorum magni tempora harum!”
 
@@ -21,4 +21,3 @@ tags: ["Marketing", "Web Design"]
   - List item number 04
   - List item number 05
   - List item number 06
-
