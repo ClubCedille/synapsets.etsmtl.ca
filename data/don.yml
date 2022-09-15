@@ -1,0 +1,15 @@
+---
+enable: true
+title: "Pour faire un don"
+subtitle: >
+          Vous voulez soutenir nos projet ? blablabla ?
+buttonTarget: "contact"
+itemPrices:
+  - packcage: "Daily"
+    description: >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Expedita pariatur quidem, impedit ipsa repellat sed!
+    price: 19
+    badge: 
+    buttonTarget: "contact"
+---

@@ -1,9 +1,6 @@
 ---
 enable: true
-title: "Our Angel Investors"
-subtitle: >
-          Nulla quis lorem ut libero malesuada feugiat. Vivamus magna justo, lacinia eget consectetur sed, 
-          convallis at tellus. Nulla quis lorem ut libero malesuada feugiat.
+
 investor:
   - name: "Spider Web"
     post: "investor"
