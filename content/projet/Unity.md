@@ -12,7 +12,7 @@ tags: ["Marketing", "Web Design"]
   
   | “Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex deleniti porro impedit iure nisi, eius sapiente dolorum magni tempora harum!”
 
-  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore mollitia quas maiores, error magnam distinctio doloribus fugiat ea minima incidunt odio facere nam nisi quod nobis aut quae aliquid. Atque voluptas esse voluptate. Placeat laudantium veniam, repellendus laboriosam blanditiis commodi!
+  Les concepts et sujets de ce projet permettent aux étudiantes de l'ÉTS de tisser des liens, de retrouver vos confrères et consoeurs autour de passions communes, de développer votre curiosité et votre inventivité, de mettre en pratique vos connaissances théoriques ou tout simplement de vous amuser.
   
   - List item number 01
   - List item number 02
