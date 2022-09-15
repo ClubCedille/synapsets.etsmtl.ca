@@ -14,9 +14,8 @@ tags: [ "Web Design"]
 
   Les concepts et sujets de ce projet permettent aux étudiantes de l'ÉTS de tisser des liens, de retrouver vos confrères et consoeurs autour de passions communes, de développer votre curiosité et votre inventivité, de mettre en pratique vos connaissances théoriques ou tout simplement de vous amuser.
   
-  - List item number 01
-  - Concevoir, fabriquer et ajuster divers types de prothèses
+  - Mécatronique
   - Étude du mouvement
-  - List item number 04
-  - List item number 05
-  - List item number 06
+  - Programation
+  - Installation et conception électrique
+  - Conception et fabriquation mécanique
