@@ -54,7 +54,47 @@ canvas {
 .title-synapse{
   position: relative;
   text-align: center;
-  margin: 0rem 10rem;
+}
+
+.logo-synapse-bienvenu{
+  max-width: 800px;
+  height: auto;
+}
+
+@media only screen and (max-width:850px){
+  .logo-synapse-bienvenu{
+    width: 700px;
+  }
+}
+
+@media only screen and (max-width:715px){
+  .logo-synapse-bienvenu{
+    width: 600px;
+  }
+}
+
+@media only screen and (max-width:600px){
+  .logo-synapse-bienvenu{
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width:500px){
+  .logo-synapse-bienvenu{
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width:350px){
+  .logo-synapse-bienvenu{
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width:272px){
+  .logo-synapse-bienvenu{
+    width: 150px;
+  }
 }
 
 .btn-bootstrap-2{
