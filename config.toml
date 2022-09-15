@@ -12,7 +12,7 @@ title = 'Synapse'
   url= "#gallery"
   weight = 1
   [[menu.Main]]
-  name = "Notre mission"
+  name = "Mission"
   url= "#mission"
   weight = 2
     [[menu.Main]]
@@ -24,7 +24,7 @@ title = 'Synapse'
   url= "#evenement"
   weight = 4
   [[menu.Main]]
-  name = "Projet"
+  name = "Projets"
   url= "#projet"
   weight = 3
   [[menu.Main]]
