@@ -1,7 +1,7 @@
 ---
 title: "Misca"
 date: 2022-01-06T11:18:56+06:00
-featureImage: images/projet/projet-feature.jpg
+featureImage: images/projet/Miscajpg.jpg
 tags: ["Marketing", "News"]
 ---
   Le nom Misca à été sélectionné (Machine Interface for Cognitive Signal Analysis) anagramme
