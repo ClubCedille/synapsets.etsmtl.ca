@@ -10,14 +10,12 @@ tags: ["Marketing", "Web Design"]
   
   Ce projet consiste au développement d’un jeu vidéo en réalité virtuel et qui utiliseras une interface cerveau-machine pour une plus grande immersion dans le jeu. Ainsi, le HTC Vive a été sélectionné comme casque à réalité virtuelle et Unity sera utilisé comme moteur pour notre jeu, dans le but de développer un produit Open Source. Tout au long du projet, des buts de logiciel, des bouts de jeu, seront développé afin de maitriser les subtilités des différentes technologies utilisées.
   
-  | “Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex deleniti porro impedit iure nisi, eius sapiente dolorum magni tempora harum!”
+  | “Je préfère les jeux à toutes les autres activités parce qu'on peut s'oublier complètement. Le reste du temps on doit toujours se demander si on est à la hauteur.  - Nancy Huston”
 
   Les concepts et sujets de ce projet permettent aux étudiantes de l'ÉTS de tisser des liens, de retrouver vos confrères et consoeurs autour de passions communes, de développer votre curiosité et votre inventivité, de mettre en pratique vos connaissances théoriques ou tout simplement de vous amuser.
   
-  - List item number 01
-  - List item number 02
-  - List item number 03
-  - List item number 04
-  - List item number 05
-  - List item number 06
-
+  - Logiciel
+  - médias interactifs
+  - Programmation
+  - Implantation de nouvelles technologies
+  - Création de jeux vidéo
