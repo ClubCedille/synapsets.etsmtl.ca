@@ -1,7 +1,7 @@
 ---
 title: "Misca"
 date: 2022-01-06T11:18:56+06:00
-featureImage: images/projet/Miscajpg.jpg
+featureImage: images/projet/Miscajpg.png
 tags: ["Marketing", "News"]
 ---
   Le nom de Misca a été choisi pour (Machine Interface for Cognitive Signal Analysis). Il est notre projet central au sein de SynapsÉts. Autrement, on pourrait difficilement appliquer une interface cerveau-machine dans nos autres recherches.
