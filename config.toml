@@ -1,5 +1,6 @@
 #baseURL = 'https://synapse.etsmtl.ca'
 #baseURL = 'https://synapsets-etsmtl-ca.vercel.app/'
+baseURL = "/"
 languageCode = 'en-us'
 paginate = 6
 theme= "coHub"
