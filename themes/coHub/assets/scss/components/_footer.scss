@@ -77,6 +77,21 @@
       font-family: $primary-font;
     }
   }
+  
+  &-button-don{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+
+    &:hover{
+      color: #f7f8fc;
+    }
+
+    @include desktop {
+      justify-content: center;
+      margin-top: 40px;
+    }
+  }
 
   &-icon {
     display: flex;
@@ -85,7 +100,6 @@
 
     @include desktop {
       justify-content: center;
-      margin-top: 40px;
     }
 
     @include desktop {
