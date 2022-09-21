@@ -1,31 +1,38 @@
 window.addEventListener("DOMContentLoaded", function() {    
-  var form = document.getElementById("contact-form");
-  var button = document.getElementById("contact-form-button");
-  var status = document.getElementById("contact-form-status");
+  let form = document.getElementById("contact-form");
+  let button = document.getElementById("contact-form-button");
+  let status = document.getElementById("contact-form-status");
 
   function success() {
     form.reset();
     button.style = "display: none ";
-    status.innerHTML = "Thanks! Contact form is submitted successfully.";
+    status.innerHTML = "Merci! Le formulaire de contact a été soumis avec succès.";
   }
 
   function error() {
-    status.innerHTML = "Oops! There was a problem.";
+    status.innerHTML = "Oops! Il y a eu un problème.";
   }
 
   // handle the form submission event
 
   form.addEventListener("submit", function(ev) {
     ev.preventDefault();
-    var data = new FormData(form);
+    let data = new FormData(form);
     ajax(form.method, form.action, data, success, error);
   });
 });
 
+
+window.onbeforeunload = () => {
+  for(const form of document.getElementsByTagName('contact-form')) {
+    form.reset();
+  }
+}
+
 // helper function for sending an AJAX request
 
 function ajax(method, url, data, success, error) {
-  var xhr = new XMLHttpRequest();
+  let xhr = new XMLHttpRequest();
   xhr.open(method, url);
   xhr.setRequestHeader("Accept", "application/json");
   xhr.onreadystatechange = function() {
