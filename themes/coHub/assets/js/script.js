@@ -21,7 +21,7 @@ $(document).ready(function () {
       .stop()
       .animate(
         {
-          scrollTop: $(this.hash).offset().top - 50,
+          scrollTop: $(this.hash).offset().top - 65,
         },
         1000
       );
@@ -167,7 +167,7 @@ $(document).ready(function () {
 // Add nav bg
 function change(){
   if ($(window).scrollTop() || window.location.pathname != "/") {
-    if(window.location.pathname == "/" && $(window).scrollTop()<640){
+    if(window.location.pathname == "/" && $(window).scrollTop()<600){
       document.getElementById("header-title").style.display = "none";
     } else {
       $(".main-nav").addClass("nav-bg");
