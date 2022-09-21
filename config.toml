@@ -40,8 +40,8 @@ title = 'Synapse'
   aboutPageURL = "projet"
   contactLink = "contact"
   copyright = "© {year} <a href=\"https://staticmania.com/\" target=\"_blank\">StaticMania </a>"
-  # fabFormURL représente le lien pour envoyer le formulaire sur la page contact. TODO : crée un compte sur https://formspree.io/ pour synapse (API qui va permettre de rediriger le form vers le courriel de synapse)
-  fabFormURL =  "https://fabform.io/f/u00kv3-" 
+  # fabFormURL représente le lien pour envoyer le formulaire sur la page contact.
+  fabFormURL =  "https://formspree.io/f/xbjbgnzw" 
   googleAnalytics = "G-JZ95FEWF9K"
   logo = "images/logo.png"
   logowhite = "images/logo-white.png"
@@ -50,15 +50,15 @@ title = 'Synapse'
   footerDon = "Voulez-vous faire un don"
 
   [params.address]
-  address = "115 W 18th St. <br>  New York, NY 10011"
-  email = "hello@example.com"
+  address = "1219 rue William, Montréal (Québec), H3C 1R1 "
+  email = "synapsets@ens.etsmtl.ca"
   openingDesc = "Give us a call or drop by anytime, we endeavour to answer all enquiries within 24 hours on business days."
   openingHours = "We are open from 7am — 7pm week days."
   phone = "+(448) 833 5272 332"
 
   [params.map]
-  latitude = "45.4948"
-  longitude = "73.5623"
+  latitude = "45.4934676539119"
+  longitude = "-73.56275806246913"
   pinImage = "images/pin.png"
 
   # Socail icons
