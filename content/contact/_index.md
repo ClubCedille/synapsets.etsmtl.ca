@@ -5,5 +5,6 @@ subTitle: >
       
 ---
     Question? Commentaire? Envoyez-nous là par courriel ou venez nous rencontrer à notre local
-    Courriel : cedille@etsmtl.net
-    1219 rue William    Montréal (Québec) H3C 1R1     Local D-2014  
+    Courriel : synapsets@ens.etsmtl.ca
+    1219 rue William, Montréal (Québec), H3C 1R1     
+    Local D-2014  
