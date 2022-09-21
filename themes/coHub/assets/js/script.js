@@ -167,7 +167,7 @@ $(document).ready(function () {
 // Add nav bg
 function change(){
   if ($(window).scrollTop() || window.location.pathname != "/") {
-    if(window.location.pathname == "/" && $(window).scrollTop()<600){
+    if(window.location.pathname == "/" && $(window).scrollTop()<550){
       document.getElementById("header-title").style.display = "none";
     } else {
       $(".main-nav").addClass("nav-bg");
