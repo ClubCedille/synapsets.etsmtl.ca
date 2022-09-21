@@ -41,7 +41,7 @@ title = 'Synapse'
   contactLink = "contact"
   copyright = "© {year} <a href=\"https://staticmania.com/\" target=\"_blank\">StaticMania </a>"
   # fabFormURL représente le lien pour envoyer le formulaire sur la page contact.
-  fabFormURL =  "https://formspree.io/f/xbjbgnzw" 
+  fabFormURL =  "https://formspree.io/f/mbjbgnaw" 
   googleAnalytics = "G-JZ95FEWF9K"
   logo = "images/logo.png"
   logowhite = "images/logo-white.png"
