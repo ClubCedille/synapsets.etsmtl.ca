@@ -7,13 +7,13 @@ subtitle: >
 missions:
   - name: "l’acquisition"
     description: >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vel mollitia sit.
-                Dicta maxime ullam quos sapiente eveniet odio accusamus.
+                Fournir des outils technologiques d'obtention des signaux nerveux abordables.
+                Simplifier la gestion et le traitement des signaux utiles.
     icon: "ti-view-grid"
   - name: "La réadaptation"
     description: >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vel mollitia sit.
-                Dicta maxime ullam quos sapiente eveniet odio accusamus.
+                Dévelloper le processus visant à réduire les incapacités d'une personne. Améliorer
+                les niveaux fonctionnels physique, sensoriel.
     icon: "ti-infinite"
   - name: " Jeux vidéo d'immersion virtuelle"
     description: >
