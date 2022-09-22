@@ -2,8 +2,8 @@
 enable: true
 title: "Notre mission"
 subtitle: >
-          SynapsÉTS a pour principale mission l'analyse et le traitement de signaux cérébraux afin 
-          d'utiliser le cerveau humain comme contrôleur.
+          SynapsÉTS a pour principale mission l'analyse et le traitement de signaux cérébraux, afin 
+          d'utiliser le cerveau humain comme contrôleur dans diverses applications.
 missions:
   - name: "l’acquisition"
     description: >
