@@ -13,7 +13,7 @@ missions:
   - name: "La réadaptation"
     description: >
                 Développer le processus visant à réduire les incapacités d'une personne. Améliorer
-                les niveaux fonctionnels physique, sensoriel.
+                les niveaux fonctionnels physique et sensoriel de l'humain.
     icon: "ti-infinite"
   - name: " Jeux vidéo d'immersion virtuelle"
     description: >
