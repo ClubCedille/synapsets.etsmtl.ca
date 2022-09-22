@@ -12,27 +12,24 @@ missions:
     icon: "ti-view-grid"
   - name: "La réadaptation"
     description: >
-                Dévelloper le processus visant à réduire les incapacités d'une personne. Améliorer
+                Développer le processus visant à réduire les incapacités d'une personne. Améliorer
                 les niveaux fonctionnels physique, sensoriel.
     icon: "ti-infinite"
   - name: " Jeux vidéo d'immersion virtuelle"
     description: >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vel mollitia sit.
-                Dicta maxime ullam quos sapiente eveniet odio accusamus.
+                Concevoir un jeu 100% contrôlable par la pensée. Créer un monde virtuel en 
+                Réalité augmentée.
     icon: "ti-help-alt"
   - name: "Easy Payment"
     description: >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vel mollitia sit.
-                Dicta maxime ullam quos sapiente eveniet odio accusamus.
+                4eme mission ?
     icon: "ti-credit-card"
   - name: "Dedicated Locker"
     description: >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vel mollitia sit.
-                Dicta maxime ullam quos sapiente eveniet odio accusamus.
+                5eme mission ?
     icon: "ti-lock"
   - name: "Personalization"
     description: >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vel mollitia sit.
-                Dicta maxime ullam quos sapiente eveniet odio accusamus.
+                6eme mission ?
     icon: "ti-image"
 ---
