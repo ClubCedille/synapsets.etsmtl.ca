@@ -68,7 +68,7 @@ title = 'Synapse'
   url = "https://www.facebook.com/ClubSynapsETS/"
   weight = 1
   [[params.social]]
-  icon = "ti-twitter-alt"#mettre un logo yt
+  icon = "ti-youtube"
   url = "https://www.youtube.com/channel/UCmdjL7bRCl3XBO2P24syMwg"
   weight = 3
   [[params.social]]
