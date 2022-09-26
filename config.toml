@@ -72,7 +72,8 @@ title = 'Synapse'
   url = "https://www.youtube.com/channel/UCmdjL7bRCl3XBO2P24syMwg"
   weight = 3
   [[params.social]]
-  icon = "ti-dribbble"#mettre un logo linkIn
+  icon = "ti-linkedin"
+
   url = "https://dribbble.com/"#Faire un compte linkdIn
   weight = 4
   [[params.social]]
