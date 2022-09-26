@@ -46,15 +46,16 @@ title = 'Synapse'
   logo = "images/logo.png"
   logowhite = "images/logo-white.png"
   footerlogo = "images/logo.png"
-  footerDescription = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit quia ab, natus fugiat voluptas saepe ipsum animi officiis in molestiae?"
+  #Test pour voir si on retire la descrpition dans le footer
+  #footerDescription = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit quia ab, natus fugiat voluptas saepe ipsum animi officiis in molestiae?"
   footerDon = "Voulez-vous faire un don"
 
   [params.address]
   address = "1219 rue William, Montréal (Québec), H3C 1R1 "
   email = "synapsets@ens.etsmtl.ca"
-  openingDesc = "Give us a call or drop by anytime, we endeavour to answer all enquiries within 24 hours on business days."
-  openingHours = "We are open from 7am — 7pm week days."
-  phone = "+(448) 833 5272 332"
+  openingDesc = "Pour toutes questions, commentaires ou demande de partenariat, n'hésitez par à nous joindre, il nous fera plaisir de vous répondre!"
+  # openingHours = "Peut-être remplacer par un lien page contact dans le futur"
+  phone = "514 396-8800, poste 7131"
 
   [params.map]
   latitude = "45.4934676539119"
@@ -64,19 +65,20 @@ title = 'Synapse'
   # Socail icons
   [[params.social]]
   icon = "ti-facebook"
-  url = "https://www.facebook.com/"
+  url = "https://www.facebook.com/ClubSynapsETS/"
   weight = 1
   [[params.social]]
-  icon = "ti-twitter-alt"
-  url = "https://twitter.com/"
-  weight = 2
-  [[params.social]]
-  icon = "ti-dribbble"
-  url = "https://dribbble.com/"
+  icon = "ti-youtube"
+  url = "https://www.youtube.com/channel/UCmdjL7bRCl3XBO2P24syMwg"
   weight = 3
   [[params.social]]
-  icon = "ti-instagram"
-  url = "https://www.instagram.com/"
+  icon = "ti-linkedin"
+
+  url = "https://linkedin.com/"#Faire un compte linkdIn
   weight = 4
+  [[params.social]]
+  icon = "ti-instagram"
+  url = "https://www.instagram.com/synapse_ets/"
+  weight = 2
   
   
