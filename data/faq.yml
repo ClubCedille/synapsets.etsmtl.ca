@@ -2,20 +2,19 @@
 enable: true
 title: "Questions fréquemment posées"
 faq:
-  - question: "Q. How do I apply?"
+  - question: "Q. Comment s'inscrire?"
     answer: >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, consectetur?
-  - question: "Q. Where can I find out about funding?"
+            Vous avez juste besoin de nous contacter par courriel ou via nos réseaux sociaux.
+  - question: "Q. Que faites vous exactement?"
     answer: >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, consectetur?
-  - question: "Q. How can I make a change to my application?"
+            Nous essayons d'utiliser les données du cerveau, pour trouver des solutions aux conflits d'aujourd'hui.
+  - question: "Q. Est-ce que je peux participer à plusieurs projets?"
     answer: >
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit excepturi 
-            eaque quidem recusandae facere obcaecati optio, perferendis iusto maxime eligendi!
-  - question: "Q. What are entry requirements?"
+            Oui tout à fait, nous encourageons grandement la pluridisciplinarité.
+  - question: "Q. Quelles sont les conditions d'entrée?"
     answer: >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, consectetur?
-  - question: "Q. How do I get a reference?"
+            Chez SynapsÉts tous les étudiants de l'ÉTS sont les bienvenues.
+  - question: "Q. Je ne suis pas membre comment je peux aider?"
     answer: >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, consectetur?
+            Vous pouvez nous soutenir sur les réseaux sociaux ou faire un don pour soutenir nos projets.
 ---
