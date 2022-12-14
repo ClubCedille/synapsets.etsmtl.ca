@@ -8,7 +8,7 @@ RUN hugo
 
 FROM nginx
 
-FROM nginx:1.23.1-alpine
+FROM nginx:1.23.3-alpine
 COPY --from=build /src/public/ /usr/share/nginx/html
 
 CMD ["nginx", "-g", "daemon off;"]
