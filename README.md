@@ -59,7 +59,7 @@ membre:
     image: "chemin vers l<image qui doit être placé dans le folder `images/team/`
 ```
 - Notez que la position défini l'ordre dans lequel le membre sera insérer sur la page.
-- **ATTENTION** : La dimension de l'image du membre doit être de **250x250px** sans quoi l'image sera mal dimensionner.
+- **ATTENTION** : La dimension de l'image du membre doit être de **255x255px** sans quoi l'image sera mal dimensionnée.
 ### Page projet
 - Ajouter projet
     - Ajouter un nouveau fichier `.md` dans le repertoire `content/projet/nomProjet.md` et ajouté le contenu suivant :
