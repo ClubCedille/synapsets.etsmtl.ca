@@ -40,6 +40,8 @@ title = 'Synapse'
   aboutPageURL = "projet"
   contactLink = "contact"
   copyright = "© {year} <a href=\"https://staticmania.com/\" target=\"_blank\">StaticMania </a>"
+  #APIkey
+  APIkey = "AIzaSyC6-hfXE2PJhkq1FQ4hOk0Uc9PUybyuyQk"
   # fabFormURL représente le lien pour envoyer le formulaire sur la page contact.
   fabFormURL =  "https://formspree.io/f/mbjbgnaw" 
   googleAnalytics = "G-JZ95FEWF9K"
