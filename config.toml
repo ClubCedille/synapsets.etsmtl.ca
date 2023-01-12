@@ -73,8 +73,7 @@ title = 'Synapse'
   weight = 3
   [[params.social]]
   icon = "ti-linkedin"
-
-  url = "https://linkedin.com/"#Faire un compte linkdIn
+  url = "https://www.linkedin.com/company/synaps%C3%A9ts/"
   weight = 4
   [[params.social]]
   icon = "ti-instagram"
