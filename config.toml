@@ -38,7 +38,7 @@ title = 'Synapse'
 
 [params]
   aboutPageURL = "projet"
-  contactLink = "contact"
+  donLink = "https://www.jedonneenligne.org/fdets/campagne/ets/challenges/view/2a59f7eb-7b29-11ed-a9d7-001dd8b75df7"
   copyright = "© {year} <a href=\"https://staticmania.com/\" target=\"_blank\">StaticMania </a>"
   #APIkey
   APIkey = "AIzaSyC6-hfXE2PJhkq1FQ4hOk0Uc9PUybyuyQk"
