@@ -6,8 +6,6 @@ COPY . .
 
 RUN hugo
 
-FROM nginx
-
 FROM nginx:1.23.3-alpine
 COPY --from=build /src/public/ /usr/share/nginx/html
 
