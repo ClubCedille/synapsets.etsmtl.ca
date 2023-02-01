@@ -4,14 +4,13 @@ date: 2022-01-06T11:15:47+06:00
 featureImage: images/projet/exojpg.jpg
 tags: ["Marketing", "Web Design"]
 ---
-
-### Simple présentation
+  ### Présentation 
   
-Le projet EXO est un projet de conception d’exosquelette servant à assister les personnes atteintes de mobilité réduite. Le club compte participer à la compétition d’exosquelette de l’Université du Michigan en 2023. La locomotion chez les patients ayant complètement ou partiellement perdu l’habilité de leur membres inférieures permettra d’éviter le phénomène d’atrophie musculosquelettique. La vision du projet EXO est de pouvoir fournir une technologie permettant des meilleurs résultats en combinant le monde de l’ingénierie et celui de la thérapie médicale. Le club souhaite éventuellement intégrer les outils du projet MICSA avec l’exosquelette du projet EXO pour augmenter la facilité d’utilisation.
+  Le projet EXO est un projet de conception d’exosquelette servant à assister les personnes. Le club vise à participer à la compétition d'exosquelettes de l'Université du Michigan en 2023 en développant un exosquelette de support visant à aider les utilisateurs à soulever des charges plus lourdes et à réduire la fatigue physique. Ce dispositif sera principalement destiné à aider les personnes dans des tâches difficiles, comme celles des pompiers. À l'avenir, nous souhaitons explorer d'autres possibilités pour ce projet, comme son utilisation dans la réhabilitation pour améliorer la locomotion chez les patients ayant perdu l'habilité de leurs membres inférieurs. Le but ultime de ce projet est de combiner les avancées en ingénierie et en thérapie médicale pour offrir une technologie de qualité. Nous envisageons également d'intégrer nos autres projet de club tel que MICSA pour augmenter la facilité d'utilisation de l'exosquelette ou même UNITY pour des jeux plus immersif.
   
-> “Si tu n'arrives pas à penser, marche. Si tu penses trop, marche. Si tu penses mal, marche encore.  - Jean Giono”
+  ### Opportunités
 
-Les concepts et sujets de ce projet permettent aux étudiantes de l'ÉTS de tisser des liens, de retrouver vos confrères et consoeurs autour de passions communes, de développer votre curiosité et votre inventivité, de mettre en pratique vos connaissances théoriques ou tout simplement de vous amuser.
+  Les concepts et sujets de ce projet permettent aux étudiantes de l’ÉTS de tisser des liens, de retrouver des confrères et consoeurs autour de passions communes, de développer son curiosité et inventivité, de mettre en pratique nos connaissances théoriques ou tout simplement s’amuser.
   
 - Mécatronique
 - Étude du mouvement
