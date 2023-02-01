@@ -38,45 +38,48 @@ title = 'Synapse'
 
 [params]
   aboutPageURL = "projet"
-  contactLink = "contact"
+  donLink = "https://www.jedonneenligne.org/fdets/campagne/ets/challenges/view/2a59f7eb-7b29-11ed-a9d7-001dd8b75df7"
   copyright = "© {year} <a href=\"https://staticmania.com/\" target=\"_blank\">StaticMania </a>"
-  # fabFormURL représente le lien pour envoyer le formulaire sur la page contact. TODO : crée un compte sur https://formspree.io/ pour synapse (API qui va permettre de rediriger le form vers le courriel de synapse)
-  fabFormURL =  "https://fabform.io/f/u00kv3-" 
+  #APIkey
+  APIkey = "AIzaSyC6-hfXE2PJhkq1FQ4hOk0Uc9PUybyuyQk"
+  # fabFormURL représente le lien pour envoyer le formulaire sur la page contact.
+  fabFormURL =  "https://formspree.io/f/mbjbgnaw" 
   googleAnalytics = "G-JZ95FEWF9K"
   logo = "images/logo.png"
   logowhite = "images/logo-white.png"
   footerlogo = "images/logo.png"
-  footerDescription = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit quia ab, natus fugiat voluptas saepe ipsum animi officiis in molestiae?"
+  #Test pour voir si on retire la descrpition dans le footer
+  #footerDescription = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit quia ab, natus fugiat voluptas saepe ipsum animi officiis in molestiae?"
   footerDon = "Voulez-vous faire un don"
 
   [params.address]
-  address = "115 W 18th St. <br>  New York, NY 10011"
-  email = "hello@example.com"
-  openingDesc = "Give us a call or drop by anytime, we endeavour to answer all enquiries within 24 hours on business days."
-  openingHours = "We are open from 7am — 7pm week days."
-  phone = "+(448) 833 5272 332"
+  address = "1219 rue William, Montréal (Québec), H3C 1R1 "
+  email = "synapsets@ens.etsmtl.ca"
+  openingDesc = "Pour toutes questions, commentaires ou demande de partenariat, n'hésitez par à nous joindre, il nous fera plaisir de vous répondre!"
+  # openingHours = "Peut-être remplacer par un lien page contact dans le futur"
+  phone = "514 396-8800, poste 7131"
 
   [params.map]
-  latitude = "45.4948"
-  longitude = "73.5623"
+  latitude = "45.4934676539119"
+  longitude = "-73.56275806246913"
   pinImage = "images/pin.png"
 
   # Socail icons
   [[params.social]]
   icon = "ti-facebook"
-  url = "https://www.facebook.com/"
+  url = "https://www.facebook.com/ClubSynapsETS/"
   weight = 1
   [[params.social]]
-  icon = "ti-twitter-alt"
-  url = "https://twitter.com/"
-  weight = 2
-  [[params.social]]
-  icon = "ti-dribbble"
-  url = "https://dribbble.com/"
+  icon = "ti-youtube"
+  url = "https://www.youtube.com/channel/UCmdjL7bRCl3XBO2P24syMwg"
   weight = 3
   [[params.social]]
-  icon = "ti-instagram"
-  url = "https://www.instagram.com/"
+  icon = "ti-linkedin"
+  url = "https://www.linkedin.com/company/synaps%C3%A9ts/"
   weight = 4
+  [[params.social]]
+  icon = "ti-instagram"
+  url = "https://www.instagram.com/synapse_ets/"
+  weight = 2
   
   

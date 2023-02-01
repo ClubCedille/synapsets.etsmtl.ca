@@ -12,8 +12,8 @@ tags: ["Marketing", "Web Design"]
 
   Les concepts et sujets de ce projet permettent aux étudiantes de l’ÉTS de tisser des liens, de retrouver des confrères et consoeurs autour de passions communes, de développer son curiosité et inventivité, de mettre en pratique nos connaissances théoriques ou tout simplement s’amuser.
   
-  - Mécatronique
-  - Étude du mouvement
-  - Système embarqué
-  - Installation et conception électrique
-  - Conception et fabriquation mécanique
+- Mécatronique
+- Étude du mouvement
+- Système embarqué
+- Installation et conception électrique
+- Conception et fabriquation mécanique
