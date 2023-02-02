@@ -5,16 +5,20 @@ featureImage: images/projet/prothese.jpg
 tags: [ "Web Design"]
 ---
 
-### Simple présentation
+### Présentation
 
-Un des projets de SynapsÉTS, il consiste au développement et à la conception d’un bras robotisée, dans le but de créer une prothèse dans le futur du club. Ainsi, les membres de l’équipe doivent développer et rechercher des systèmes de motorisation de différentes articulations, concevoir la structure et les parois extérieures du bras à l’aide de logiciel CAO, définir le système de contrôle des composantes et intégrer une Interface Cerveau-Machine au système. Puisqu’il s’agit d’un projet aux tâches très varié, plusieurs domaines de génie sont appliqués durant la conception et le développement.
+L'un des projets de SynapsÉTS est la réalisation d'une prothèse biomimétique qui sera éventuellement contrôlée par les signaux de provenance humaine.  Les membres de l’équipe doivent développer et rechercher des systèmes de motorisation de différentes articulations, car la prothèse doit être la plus fidèle possible à celle d'un humain (vitesse, dextérité, degré de liberté, etc.) De plus, ils seront amenés à concevoir la structure et les parois extérieures du bras, à définir le système de contrôle des composantes et à intégrer une Interface cerveau-machine au système. 
+Puisqu’il s’agit d’un projet aux tâches très variées, plusieurs domaines de génie sont appliqués durant la conception et le développement.
 
-> “Depuis qu'on a découvert l'homme, on ne le perfectionne qu'avec des prothèses. - Stanislaw Jerzy Lec”
+> “L'humain est déjà très bien conçu, donc recréer une prothèse fidèle à la biomécanique de la main humaine est un défi imposant et amusant. - Siyana Milenova Milanova (directrice REACH)”
 
-Les concepts et sujets de ce projet permettent aux étudiantes de l'ÉTS de tisser des liens, de retrouver vos confrères et consoeurs autour de passions communes, de développer votre curiosité et votre inventivité, de mettre en pratique vos connaissances théoriques ou tout simplement de vous amuser.
+### Opportunités
+
+Les concepts vus au cours de ce projet permettent aux étudiant(e)s de l'ÉTS de découvrir le domaine des prothèses/orthèses et ainsi explorer les subtilités du biomédical. Entouré par des gens passionnés et débrouillards, les membres vont mettre en pratique leurs connaissances et leur savoir-agir afin de créer une invention impressionnante et qui changera la vie de plusieurs.
   
 - Mécatronique
 - Étude du mouvement
-- Programation
+- Étude de l'anatomie du bras
+- Programmation
 - Installation et conception électrique
-- Conception et fabriquation mécanique
+- Conception et fabrication mécanique
