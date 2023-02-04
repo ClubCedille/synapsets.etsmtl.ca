@@ -1,8 +1,9 @@
 {{with .Site.Data.feedback}}
 {{if .enable}}
 <section class="testimonial"  style="background-image: url( {{ .backgroundImage }} );">
-  <div class="container">
-    <div class="row">
+  <!--A retirer les marges dans le container lors de l'ajout des commanditaires -->
+  <div class="container my-5 py-5"> 
+    {{/*  <div class="row">
       <div class="col-lg-6">
         <div class="testimonial-content">
           <h3>{{ .title}}</h3>
@@ -12,7 +13,8 @@
           </blockquote>
         </div>
       </div>
-    </div>
+    </div>  */}}
+  </div>
 </section>
 {{end}}
 {{end}}

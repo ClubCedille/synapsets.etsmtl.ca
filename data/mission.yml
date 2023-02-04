@@ -20,16 +20,4 @@ missions:
                 Concevoir un jeu 100% contrôlable par la pensée. Créer un monde virtuel en 
                 Réalité augmentée.
     icon: "ti-help-alt"
-  - name: "Easy Payment"
-    description: >
-                4eme mission ?
-    icon: "ti-credit-card"
-  - name: "Dedicated Locker"
-    description: >
-                5eme mission ?
-    icon: "ti-lock"
-  - name: "Personalization"
-    description: >
-                6eme mission ?
-    icon: "ti-image"
 ---
