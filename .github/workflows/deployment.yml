@@ -2,7 +2,8 @@ name: Docker
 
 on:
   push:
-    branches: [master]
+    tags:
+      - "v*.*.*"
 
 jobs:
   build:
@@ -22,6 +23,10 @@ jobs:
           username: ${{ secrets.DOCKER_HUB_USERNAME }}
           password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
 
+      - name: Get Tag Version
+        id: tag
+        run: "echo ::set-output name=version::${GITHUB_REF#refs/*/}"
+
       - name: Cache Docker layers
         uses: actions/cache@v3
         with:
@@ -36,7 +41,9 @@ jobs:
           context: .
           file: ./Dockerfile.prod
           push: true
-          tags: ${{ secrets.DOCKER_HUB_REPOSITORY }}:latest
+          tags: |
+            ${{ secrets.DOCKER_HUB_REPOSITORY }}:latest
+            ${{ secrets.DOCKER_HUB_REPOSITORY }}:${{ steps.tag.outputs.version }}
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,mode=max,dest=/tmp/.buildx-cache-new
 
