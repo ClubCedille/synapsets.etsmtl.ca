@@ -4,6 +4,8 @@ WORKDIR /src
 
 COPY . .
 
+EXPOSE 80
+
 RUN hugo
 
 FROM nginx:1.23.3-alpine
