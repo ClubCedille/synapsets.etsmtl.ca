@@ -6,7 +6,11 @@ subtitle: >
         Ce club scientifique rassemble tous les domaines d'expertise de l'université!
 galleryImage: 
  - image: "images/gallery/accueil_1.jpg"
+   accueil: "Accueil 01"     
  - image: "images/gallery/accueil_2.jpg"
+   accueil: "Accueil 02"
  - image: "images/gallery/accueil_3.jpg"
+   accueil: "Accueil 03"
  - image: "images/gallery/accueil_4.jpg"
+   accueil: "Accueil 04"
 ---

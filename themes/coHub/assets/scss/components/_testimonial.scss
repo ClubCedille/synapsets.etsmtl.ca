@@ -7,6 +7,11 @@
   @include desktop {
     padding: 50px 0;
   }
+  /*Enlever mobile dès qu'il y aura des commanditaires*/
+  @include mobile {
+    background-attachment: inherit;
+    padding: 100px 0;
+  }
   &::after {
     content: "";
     position: absolute;
