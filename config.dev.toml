@@ -1,0 +1,84 @@
+baseURL = '/'
+languageCode = 'en-us'
+paginate = 6
+theme= "coHub"
+title = 'Synapse'
+ 
+[Menu]
+  # Main Menu
+  [[menu.Main]]
+  name = "Accueil"
+  url= "#gallery"
+  weight = 1
+  [[menu.Main]]
+  name = "Mission"
+  url= "#mission"
+  weight = 2
+  [[menu.Main]]
+  name = "Évènement"
+  url= "#evenement"
+  weight = 4
+  [[menu.Main]]
+  name = "Projets"
+  url= "#projet"
+  weight = 3
+  [[menu.Main]]
+  name = "Membres"
+  url= "/membres/"
+  weight = 5
+  [[menu.Main]]
+  name = "FAQ"
+  url= "#faq"
+  weight = 6
+  [[menu.Main]]
+  name = "Contact"
+  url= "/contact/"
+  weight = 7
+
+[params]
+  aboutPageURL = "projet"
+  donLink = "https://www.jedonneenligne.org/fdets/campagne/ets/challenges/view/2a59f7eb-7b29-11ed-a9d7-001dd8b75df7"
+  copyright = "© {year} <a href=\"https://staticmania.com/\" target=\"_blank\">StaticMania </a>"
+  #APIkey
+  APIkey = "AIzaSyC6-hfXE2PJhkq1FQ4hOk0Uc9PUybyuyQk"
+  # fabFormURL représente le lien pour envoyer le formulaire sur la page contact.
+  fabFormURL =  "https://formspree.io/f/mbjbgnaw" 
+  googleAnalytics = "G-JZ95FEWF9K"
+  logo = "images/logo.png"
+  logowhite = "images/logo-white.png"
+  footerlogo = "images/logo.png"
+  #Test pour voir si on retire la descrpition dans le footer
+  #footerDescription = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit quia ab, natus fugiat voluptas saepe ipsum animi officiis in molestiae?"
+  footerDon = "Voulez-vous faire un don"
+
+  [params.address]
+  address = "1219 rue William, Montréal (Québec), H3C 1R1 "
+  email = "synapsets@ens.etsmtl.ca"
+  openingDesc = "Pour toutes questions, commentaires ou demande de partenariat, n'hésitez par à nous joindre, il nous fera plaisir de vous répondre!"
+  # openingHours = "Peut-être remplacer par un lien page contact dans le futur"
+  phone = "514 396-8800, poste 7131"
+
+  [params.map]
+  latitude = "45.4934676539119"
+  longitude = "-73.56275806246913"
+  pinImage = "images/pin.png"
+
+  # Socail icons
+  [[params.social]]
+  icon = "ti-facebook"
+  url = "https://www.facebook.com/ClubSynapsETS/"
+  weight = 1
+  [[params.social]]
+  icon = "ti-youtube"
+  url = "https://www.youtube.com/channel/UCmdjL7bRCl3XBO2P24syMwg"
+  weight = 3
+  [[params.social]]
+  icon = "ti-linkedin"
+  url = "https://www.linkedin.com/company/synaps%C3%A9ts/"
+  weight = 4
+  [[params.social]]
+  icon = "ti-instagram"
+  url = "https://www.instagram.com/synapse_ets/"
+  weight = 2
+  
+  
