@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://synapsets.etsmtl.ca/'
 languageCode = 'en-us'
 paginate = 6
 theme= "coHub"

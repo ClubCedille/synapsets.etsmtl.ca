@@ -6,7 +6,7 @@ COPY . .
 
 EXPOSE 80
 
-RUN hugo
+RUN hugo --config config.prod.toml
 
 FROM nginx:1.23.3-alpine
 COPY --from=build /src/public/ /usr/share/nginx/html
