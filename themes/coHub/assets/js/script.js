@@ -37,9 +37,9 @@ $(document).ready(function () {
   });
 
   // mission Item Match Height
-  $(".mission-item").matchHeight({
-    byRow: 0,
-  });
+  //$(".mission-item").matchHeight({
+    //byRow: 0,
+  //});
 
   // .projet-content Match Height
   $(".projet-content").matchHeight({
