@@ -2,11 +2,11 @@
 ---
 title: "Anges du Génie 2023"
 date: 2023-03-20T11:16:38+06:00
-featureImage: images/evenement/angesDuGenieBanniere.jpg
+featureImage: images/evenement/angesDuGenieBanniere.png
 tags: [ "Competition"]
 ---
 
-# Lors du concours Les Anges du génie, SynapsÉTS s'illustre parmi plus de 50 équipes et remporte une bourse de 3000$ 
+# Lors du concours Les Anges du génie, SynapsÉTS s'illustre parmi près de **50 équipes** et remporte une bourse de **3000$**
 
 Cette semaine, les membres de SynapsÉTS ont eu la chance de démontrer leur capacité dans le cadre d’un tout nouveau concours soulignant l’innovation étudiante en milieu universitaire. En effet, Jeudi 16 mars s’est tenu la diffusion de la grande finale du concours les Anges du génie organisé par gestion Férique. Cette dernière mettait en compétition 6 projets sélectionnés afin de répondre à au moins un des 17 critères du développement durable définis par l’ONU.
 
