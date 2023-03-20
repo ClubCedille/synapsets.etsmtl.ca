@@ -1,4 +1,4 @@
 ---
-title: "Nos évènement"
+title: "Nos évènements"
 ---
 
