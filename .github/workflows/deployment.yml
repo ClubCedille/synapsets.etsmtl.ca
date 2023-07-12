@@ -28,7 +28,7 @@ jobs:
 
       - uses: oprypin/find-latest-tag@v1
         with:
-          repository: clubcedille/raconteurs.etsmtl.ca
+          repository: ${{ github.repository }}
           releases-only: true  
         id: octokit  
           
