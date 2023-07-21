@@ -15,7 +15,7 @@ Site web du club SynapsÉTS utilisant le thème [Cohub Hugo](https://github.com/
 
 ## Deploiement
 
-- TODO
+- Un workflow automatique a été mis en place pour automatiser le déploiement avec tout nouvel ajout sur le repertoire sans aucune interaction.
 
 ## Mettre à jour le contenu
 
