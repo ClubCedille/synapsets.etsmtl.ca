@@ -26,29 +26,11 @@ jobs:
           username: ${{ secrets.DOCKER_HUB_USERNAME }}
           password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
 
-      - uses: oprypin/find-latest-tag@v1
+      - id: release
+        uses: rymndhng/release-on-push-action@master
         with:
-          repository: ${{ github.repository }}
-          releases-only: true  
-        id: octokit  
-          
-      - name: Increment Version
-        id: new_tag
-        run: |
-          LATEST_TAG=${{ steps.octokit.outputs.tag }}
-          VERSION=$(echo $LATEST_TAG | awk -F. -v OFS=. '{$NF++;print}')
-          echo "NEW_TAG=${VERSION}" >> $GITHUB_ENV
-          echo "New tag: ${VERSION}"
-          
-      - name: Set Git Config
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-  
-      - name: Create and Push Git Tag
-        run: |
-          git tag ${{ env.NEW_TAG }}
-          git push origin ${{ env.NEW_TAG }}
+          bump_version_scheme: minor
+          tag_prefix: v
 
       - name: Cache Docker layers
         uses: actions/cache@v3
@@ -66,7 +48,7 @@ jobs:
           push: true
           tags: |
             ${{ secrets.DOCKER_HUB_REPOSITORY }}:latest
-            ${{ secrets.DOCKER_HUB_REPOSITORY }}:${{ env.NEW_TAG }}
+            ${{ secrets.DOCKER_HUB_REPOSITORY }}:${{ steps.release.outputs.version }}
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,mode=max,dest=/tmp/.buildx-cache-new
 
