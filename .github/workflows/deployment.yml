@@ -31,7 +31,7 @@ jobs:
       - id: release
         uses: rymndhng/release-on-push-action@master
         with:
-          bump_version_scheme: minor
+          bump_version_scheme: patch
           tag_prefix: v
 
       - name: Cache Docker layers
