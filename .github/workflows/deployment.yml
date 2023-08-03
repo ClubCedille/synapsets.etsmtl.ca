@@ -46,7 +46,7 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           context: .
-          file: ./Dockerfile
+          file: ./Dockerfile.prod
           push: true
           tags: |
             ${{ secrets.DOCKER_HUB_REPOSITORY }}:latest
@@ -103,7 +103,7 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           context: .
-          file: ./Dockerfile
+          file: ./Dockerfile.prod
           push: true
           tags: |
             ${{ secrets.DOCKER_HUB_REPOSITORY }}:${{ env.VERSION }}
