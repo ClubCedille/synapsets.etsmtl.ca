@@ -168,15 +168,12 @@ $(document).ready(function () {
 function change(){
   if ($(window).scrollTop() || window.location.pathname != "/") {
     if(window.location.pathname == "/" && $(window).scrollTop()<550){
-      document.getElementById("header-title").style.display = "none";
+      document.getElementById("header-title").style.opacity = "0";
     } else {
       $(".main-nav").addClass("nav-bg");
-      document.getElementById("header-title").style.display = "block";
+      document.getElementById("header-title").style.opacity = "1";
     }
     
-  } else {
-    $(".main-nav").removeClass("nav-bg");
-    document.getElementById("header-title").style.display = "none";
   }
 };
 window.onload=window.onscroll=change;

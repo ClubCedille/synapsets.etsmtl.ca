@@ -15,14 +15,14 @@
           <h2>Formulaire pour nous contacter</h2>
           <form id="contact-form" class="row" action="{{ .Site.Params.fabFormURL }}" method="POST">
             <div class="col-md-6">
-              <input type="text" class="form-control" id="exampleFormControlInput1" name="Name" placeholder="Votre nom">
+              <input type="text" class="form-control" id="exampleFormControlInput1" name="nom" placeholder="Votre nom" required>
             </div>
             <div class="col-md-6">
-              <input type="email" class="form-control" id="validationCustom02" required="" name="email" placeholder="Votre email">
+              <input type="email" class="form-control" id="validationCustom02" required="" name="courriel" placeholder="Votre courriel" required>
             </div>
             <div class="col-md-12">
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="8" name="message"
-                placeholder="Votre message ici…"></textarea>
+                placeholder="Votre message ici…" required></textarea>
             </div>
             <div class="col-lg-12">
               <button type="submit" class="btn btn-primary" id="contact-form-button" >Envoyer</button>
