@@ -33,15 +33,10 @@
           </ul>
         </div>
         <div class="footer-copyright-text">
-          <p> {{ replace .Site.Params.copyright "{year}" now.Year | safeHTML }} </p>
-          <ul>
-            {{ $sitemap := .Site.Menus.sitemap }}
-						{{ range $sitemap }}
-						  <li >
-                <a  href="{{ .URL | absURL }}">{{ .Name }}</a>
-              </li>
-						{{ end }}
-          </ul>
+          <div class="row text-right">
+            <p class="col-12"> {{ replace .Site.Params.copyrightCedille "{year}" 2023 | safeHTML }}</p>
+            <p class="col-12"> {{ replace .Site.Params.copyrightStatic "{year}" 2023 | safeHTML }} </p>
+          </div>
         </div>
       </div>
     </div>
