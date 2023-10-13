@@ -1,4 +1,4 @@
-baseURL = 'https://synapsets.etsmtl.ca/'
+baseURL = 'https://synapsets.etsmtl.ca'
 languageCode = 'en-us'
 paginate = 6
 theme= "coHub"
@@ -15,16 +15,16 @@ title = 'Synapse'
   url= "#mission"
   weight = 2
   [[menu.Main]]
-  name = "Évènement"
-  url= "#evenement"
-  weight = 4
-  [[menu.Main]]
   name = "Projets"
   url= "#projet"
   weight = 3
   [[menu.Main]]
+  name = "Évènement"
+  url= "#evenement"
+  weight = 4
+  [[menu.Main]]
   name = "Membres"
-  url= "/membres"
+  url= "/membres/"
   weight = 5
   [[menu.Main]]
   name = "FAQ"
@@ -32,7 +32,7 @@ title = 'Synapse'
   weight = 6
   [[menu.Main]]
   name = "Contact"
-  url= "/contact"
+  url= "/contact/"
   weight = 7
 
 [params]
