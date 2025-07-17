@@ -39,7 +39,7 @@ title = 'Synapse'
   aboutPageURL = "projet"
   donLink = "https://www.jedonneenligne.org/fdets/campagne/ets/challenges/view/2a59f7eb-7b29-11ed-a9d7-001dd8b75df7"
   #APIkey
-  APIkey = "AIzaSyC6-hfXE2PJhkq1FQ4hOk0Uc9PUybyuyQk"
+  APIkey = "AIzaSyD1aM-ZRRtAGOlk4qQWdLhHQe0qiAZlFRA"
   # fabFormURL représente le lien pour envoyer le formulaire sur la page contact.
   fabFormURL =  "https://formspree.io/f/mbjbgnaw" 
   googleAnalytics = "G-JZ95FEWF9K"
