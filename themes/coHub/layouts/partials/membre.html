@@ -1,5 +1,5 @@
-{{ with .Site.Data.membre}}
-{{ if .enable}}
+{{ with .Site.Data.membre }}
+{{ if .enable }}
 <section class="team">
   <div class="container">
     <div class="row">
@@ -10,21 +10,32 @@
         </div>
       </div>
     </div>
+
     <div class="row">
-      {{ range .membre}}
+      {{ range .membre }}
       <div class="col-lg-3">
         <div class="member-informashion">
           <div class="member-thume">
-            <img src="{{ .image | absURL }}" alt="image">
+            <img src="{{ .image | absURL }}" alt="{{ .name }}">
           </div>
-          <h3>{{.name}}</h3>
-          <p>{{.post}}</p>
+          <h3>{{ .name }}</h3>
+          <p>{{ .post }}</p>
+
+          {{ with .social }}
+          <div class="social-links">
+            {{ range . }}
+            <a class="mx-1" href="{{ .url }}" target="_blank" rel="noopener">
+              <i class="fab fa-{{ .title }} fa-lg"></i>
+            </a>
+            {{ end }}
+          </div>
+          {{ end }}
+
         </div>
       </div>
-      {{end}}
-
+      {{ end }}
     </div>
   </div>
 </section>
-{{end}}
-{{end}}
+{{ end }}
+{{ end }}
