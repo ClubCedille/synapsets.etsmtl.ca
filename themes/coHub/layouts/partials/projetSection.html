@@ -12,19 +12,21 @@
         </div>
       </div>
     </div>
-    <div class="row justify-content-center">
-      {{ range first 3 (where $.Site.RegularPages "Type" "projet") }}
-      <div class="col-lg-4 col-md-6">
-        <article class="projet-post">
-          <img src="{{ .Params.featureImage | absURL }}" alt="projet-images">
-          <div class="projet-content">
-            <h3><a href="{{ .Permalink }}">{{.Title}}</a></h3>
-            <p>{{ truncate 75 .Summary }}</p>
-            <a class="more" href="{{ .Permalink }}">En savoir plus <span>⟶</span></a>
-          </div>
-        </article>
+   <div class="row justify-content-center">
+  {{ range first 3 (sort (where $.Site.RegularPages "Type" "projet") "Weight" "asc") }}
+  <div class="col-lg-4 col-md-6">
+    <article class="projet-post">
+      <img src="{{ .Params.featureImage | absURL }}" alt="projet-images">
+      <div class="projet-content">
+        <h3><a href="{{ .Permalink }}">{{.Title}}</a></h3>
+        <p>{{ truncate 75 .Summary }}</p>
+        <a class="more" href="{{ .Permalink }}">En savoir plus <span>⟶</span></a>
       </div>
-      {{end}}
+    </article>
+  </div>
+  {{end}}
+</div>
+
       <div class="col-12 text-center">
         <a href="{{.buttonTarget | absURL}}" class="btn btn-primary">Voir tout les projets</a>
       </div>
