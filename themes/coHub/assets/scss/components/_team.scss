@@ -26,4 +26,10 @@
       }
     }
   }
+
+  .old-member .member-thume img {
+  filter: grayscale(100%);
+  opacity: 0.9;
+}
+
 }
