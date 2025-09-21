@@ -5,35 +5,35 @@ membre:
     post: "Capitaine de l'équipe"
     social:
       - title: linkedin
-        url: "https://www.linkedin.com/in/benjaminjoinvil/"
+        url: "https://www.linkedin.com/in/isaac-bourassa/"
     image: "images/team/IsaacBourassa.jpg"
 
   - name: "Vy Dan Tran"
     post: "Co-Capitaine et directeur mécanique"
     social:
       - title: linkedin
-        url: "https://www.linkedin.com/in/benjaminjoinvil/"
+        url: "https://www.linkedin.com/in/vy-dan-tran-7304b4264/"
     image: "images/team/VyDanTran.jpg"
 
   - name: "Siyana Milenova Milanova"
     post: "Membre"
     social:
       - title: linkedin
-        url: "https://www.linkedin.com/in/benjaminjoinvil/"
+        url: "https://www.linkedin.com/in/siyana-milenova-milanova-28b173210/"
     image: "images/team/SiyanaMilenovaMilanova.jpg"
 
   - name: "Thomas Hamel"
     post: "Dirtecteur électrique"
     social:
       - title: linkedin
-        url: "https://www.linkedin.com/in/benjaminjoinvil/"
+        url: "https://www.linkedin.com/in/thomas-hamel-b0ab4a2a8/"
     image: "images/team/ThomasHamel.jpg"
 
   - name: "Minoru Yoshida"
-    post: "Membre"
+    post: "co-directeur logiciel"
     social:
       - title: github
-        url: "https://github.com/kingNomad3"
+        url: "https://github.com/yagata-dev"
       - title: linkedin
         url: "https://www.linkedin.com/in/minoru-yoshida/"
     image: "images/team/MinoruYoshida.jpg"
@@ -45,46 +45,37 @@ membre:
         url: "https://github.com/kingNomad3"
       - title: linkedin
         url: "https://www.linkedin.com/in/benjaminjoinvil/"
-    image: "images/team/BenjaminJoinvil.png"
+    image: "images/team/BenjaminJoinvil.jpg"
 
-  - name: "Estebane"
+  - name: "Gabriel De Marbre"
     post: "Membre"
-    social:
-      - title: linkedin
-        url: "https://www.linkedin.com/in/benjaminjoinvil/"
-    image: "images/team/Estebane.jpg"
+    social: []
+    image: "images/team/identity_protected.jpg"  
 
-  - name: "personne"
+  - name: "Jacob Vignola"
     post: "Membre"
-    social:
-      - title: linkedin
-        url: "https://www.linkedin.com/in/benjaminjoinvil/"
-    image: "images/team/Personne.jpg"
+    social: []
+    image: "images/team/JacobVignola.jpg"
 
-  - name: "Arisa"
+  - name: "Arisa Halluni"
     post: "Membre"
-    social:
-      - title: github
-        url: "https://github.com/kingNomad3"
-      - title: linkedin
-        url: "https://www.linkedin.com/in/benjaminjoinvil/"
+    social: []
     image: "images/team/Arisa.jpg"
 
-  - name: "Leila"
+  - name: "Leila Laliberté Lasly"
     post: "Membre"
-    social:
-      - title: github
-        url: "https://github.com/kingNomad3"
-      - title: linkedin
-        url: "https://www.linkedin.com/in/benjaminjoinvil/"
+    social: []
     image: "images/team/Leila.jpg"
 
-  - name: "jeanmarc"
+  - name: "Vincent Rhéaume"
     post: "Membre"
-    social:
-      - title: linkedin
-        url: "https://www.linkedin.com/in/benjaminjoinvil/"
-    image: "images/team/jeanmarc.jpg"  
+    social: []
+    image: "images/team/VincentRhéaume.jpg"  
+
+  - name: "Gabriel Estebane Vega"
+    post: "Membre"
+    social: []
+    image: "images/team/Estebane.jpg"
 
 
       
