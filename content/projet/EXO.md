@@ -1,6 +1,7 @@
 ---
 title: "EXO"
 date: 2022-01-06T11:15:47+06:00
+weight: 1
 featureImage: images/projet/exojpg.jpg
 tags: ["Marketing", "Web Design"]
 ---

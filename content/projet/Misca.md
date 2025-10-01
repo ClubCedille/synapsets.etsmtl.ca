@@ -1,6 +1,7 @@
 ---
 title: "Misca"
 date: 2022-01-06T11:18:56+06:00
+weight: 2
 featureImage: images/projet/Miscajpg.png
 tags: ["Marketing", "News"]
 ---

@@ -1,6 +1,86 @@
 ---
 enable: true
 membre:
+  - name: "Isaac Bourassa"
+    post: "Capitaine de l'équipe"
+    social:
+      - title: linkedin
+        url: "https://www.linkedin.com/in/isaac-bourassa/"
+    image: "images/team/IsaacBourassa.jpg"
+
+  - name: "Vy Dan Tran"
+    post: "Co-Capitaine et directeur mécanique"
+    social:
+      - title: linkedin
+        url: "https://www.linkedin.com/in/vy-dan-tran-7304b4264/"
+    image: "images/team/VyDanTran.jpg"
+
+  - name: "Siyana Milenova Milanova"
+    post: "Membre"
+    social:
+      - title: linkedin
+        url: "https://www.linkedin.com/in/siyana-milenova-milanova-28b173210/"
+    image: "images/team/SiyanaMilenovaMilanova.jpg"
+
+  - name: "Thomas Hamel"
+    post: "Dirtecteur électrique"
+    social:
+      - title: linkedin
+        url: "https://www.linkedin.com/in/thomas-hamel-b0ab4a2a8/"
+    image: "images/team/ThomasHamel.jpg"
+
+  - name: "Minoru Yoshida"
+    post: "co-directeur logiciel"
+    social:
+      - title: github
+        url: "https://github.com/yagata-dev"
+      - title: linkedin
+        url: "https://www.linkedin.com/in/minoru-yoshida/"
+    image: "images/team/MinoruYoshida.jpg"
+
+  - name: "Benjamin Joinvil"
+    post: "Directeur logiciel"
+    social:
+      - title: github
+        url: "https://github.com/kingNomad3"
+      - title: linkedin
+        url: "https://www.linkedin.com/in/benjaminjoinvil/"
+    image: "images/team/BenjaminJoinvil.jpg"
+
+  - name: "Gabriel De Marbre"
+    post: "Membre"
+    social: []
+    image: "images/team/identity_protected.jpg"  
+
+  - name: "Jacob Vignola"
+    post: "Membre"
+    social: []
+    image: "images/team/JacobVignola.jpg"
+
+  - name: "Arisa Halluni"
+    post: "Membre"
+    social: []
+    image: "images/team/Arisa.jpg"
+
+  - name: "Leila Laliberté Lasly"
+    post: "Membre"
+    social: []
+    image: "images/team/Leila.jpg"
+
+  - name: "Vincent Rhéaume"
+    post: "Membre"
+    social: []
+    image: "images/team/VincentRhéaume.jpg"  
+
+  - name: "Gabriel Estebane Vega"
+    post: "Membre"
+    social: []
+    image: "images/team/Estebane.jpg"
+
+
+      
+anciensmembres:
+  
   - name: "Alexandre-Xavier Panu-Bule"
     post: "Capitaine et Co-directeur mécanique"
     image: "images/team/Alexandre_Panu-Bule.jpg"
@@ -16,9 +96,6 @@ membre:
   - name: "Jean-Rémi Martin"
     post: "Directeur Mécanique"
     image: "images/team/Jean-Rémi_Martin.jpg"
-  - name: "Siyana Milenova Milanova"
-    post: "Chef d'équipe REACH"
-    image: "images/team/identity_protected.jpg"
   - name: "Maëlle Marinier"
     post: "Directrice multimédia"
     image: "images/team/identity_protected.jpg"
@@ -46,10 +123,11 @@ membre:
   - name: "Arthur Blaise"
     post: "Membre"
     image: "images/team/identity_protected.jpg"
-  - name: "Vy Dan Tran"
-    post: "Membre"
-    image: "images/team/identity_protected.jpg"
   - name: "Arnold Ndandji"
     post: "Membre"
-    image: "images/team/identity_protected.jpg"
+    image: "images/team/identity_protected.jpg"    
+
+
 ---
+
+
