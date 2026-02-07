@@ -36,6 +36,7 @@ title = 'Synapse'
   weight = 7
 
 [params]
+  assetsDir = "assets"
   aboutPageURL = "projet"
   donLink = "https://www.jedonneenligne.org/fdets/campagne/ets/challenges/view/2a59f7eb-7b29-11ed-a9d7-001dd8b75df7"
   #APIkey
