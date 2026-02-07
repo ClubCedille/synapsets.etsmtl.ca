@@ -1,9 +1,9 @@
 baseURL = '/'
 languageCode = 'en-us'
-paginate = 6
+pagination.pagerSize = 6
 theme= "coHub"
 title = 'Synapse'
- 
+
 [Menu]
   # Main Menu
   [[menu.Main]]
@@ -41,7 +41,7 @@ title = 'Synapse'
   #APIkey
   APIkey = "AIzaSyD1aM-ZRRtAGOlk4qQWdLhHQe0qiAZlFRA"
   # fabFormURL représente le lien pour envoyer le formulaire sur la page contact.
-  fabFormURL =  "https://formspree.io/f/mbjbgnaw" 
+  fabFormURL =  "https://formspree.io/f/mbjbgnaw"
   googleAnalytics = "G-JZ95FEWF9K"
   logo = "images/logo.png"
   logowhite = "images/logo-white.png"
@@ -79,5 +79,3 @@ title = 'Synapse'
   icon = "ti-instagram"
   url = "https://www.instagram.com/synapse_ets/"
   weight = 2
-  
-  

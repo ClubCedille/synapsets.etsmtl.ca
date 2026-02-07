@@ -11,15 +11,15 @@
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1"
     />
-    
+
     <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/screen.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
 
-    {{ hugo.Generator }} 
+    {{ hugo.Generator }}
     {{ "<!-- Critical CSS -->" | safeHTML }}
-    {{$style :=  resources.Get "scss/critical.scss" | resources.ToCSS | resources.Minify }}
+    {{$style :=  resources.Get "scss/critical.scss" | css.Sass | resources.Minify }}
     <link href="{{ $style.Permalink }}" rel="stylesheet" />
-  
+
 
     {{"<!-- Favicon -->" | safeHTML}}
     <link rel="shortcut icon" href="{{"images/favicon.ico" | absURL}}" type="image/x-icon" />
@@ -32,12 +32,11 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-  
+
       gtag('config', '{{ . }}');
-      
+
     </script>
     {{ end }}
 
-    
-  </head>
 
+  </head>

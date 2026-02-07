@@ -22,19 +22,19 @@
         <div class="footer-icon">
           <ul>
             {{ range $socialIcon }}
-						<li >
+	    <li >
               <a target="_blank" href="{{ .url }}">
                 <i
-									class="{{ .icon }}">
+		  class="{{ .icon }}">
                 </i>
               </a>
-						</li>
-						{{ end }}
+	    </li>
+	    {{ end }}
           </ul>
         </div>
         <div class="footer-copyright-text">
           <div class="row text-center text-lg-right">
-            <p class="col-12">&copy; 2023, Personnalisée et déployée par <a href="https://cedille.etsmtl.ca/" target="_blank">Club Cédille</a></p>
+            <p class="col-12">&copy; 2026, Personnalisée et déployée par <a href="https://cedille.etsmtl.ca/" target="_blank">Club Cédille</a></p>
             <p class="col-12">&copy; 2023, Conçue et développée par <a href="https://staticmania.com/" target="_blank">StaticMania</a></p>
           </div>
         </div>
@@ -45,7 +45,7 @@
 
 
 {{ "<!-- Non Critical CSS -->" | safeHTML }}
-{{$style :=  resources.Get "scss/non-critical.scss" | resources.ToCSS | resources.Minify }}
+{{$style :=  resources.Get "scss/non-critical.scss" | css.Sass | resources.Minify }}
 <link href="{{ $style.Permalink }}" rel="stylesheet" />
 <script src="https://maps.googleapis.com/maps/api/js?key={{ .Site.Params.APIkey }}&libraries=geometry">
 </script>
@@ -57,7 +57,7 @@
 <script src="{{"vendor/match-height/match-height.js" | absURL}}"></script>
 <script src="{{"vendor/magnific-popup/magnific-popup.min.js" | absURL}}"></script>
 <script src="{{"vendor/g-map/gmap.js" | absURL}}"></script>
-<!-- {{ $formhandler := resources.Get "js/formhandler.js" | minify}} 
-<script src="{{ $formhandler.Permalink}}"></script> -->
-{{ $script := resources.Get "js/script.js" | minify}} 
-<script src="{{ $script.Permalink}}"></script>
+<!-- {{ $formhandler := resources.Get "js/formhandler.js" | minify}}
+     <script src="{{ $formhandler.Permalink}}"></script> -->
+     {{ $script := resources.Get "js/script.js" | minify}}
+     <script src="{{ $script.Permalink}}"></script>
