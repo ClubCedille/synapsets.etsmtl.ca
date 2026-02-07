@@ -1,10 +1,12 @@
-FROM yanqd0/hugo as build
-
-EXPOSE 3000
+FROM floryn90/hugo:0.136.5 AS build
 
 WORKDIR /src
 
 COPY . .
 
-CMD [ "hugo", "server", "watch", "--bind", "0.0.0.0", "-p", "3000"]
+RUN hugo
 
+FROM nginx:1.21.6-alpine
+COPY --from=build /src/public/ /usr/share/nginx/html
+
+CMD ["nginx", "-g", "daemon off;"]
