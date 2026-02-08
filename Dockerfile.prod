@@ -8,7 +8,7 @@ EXPOSE 80
 
 RUN hugo --config config.prod.toml
 
-FROM nginx:1.25.2-alpine
+FROM nginx:1.29.5-alpine
 COPY --from=build /src/public/ /usr/share/nginx/html
 
 CMD ["nginx", "-g", "daemon off;"]
