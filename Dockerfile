@@ -1,4 +1,4 @@
-FROM floryn90/hugo:0.166.0-ext AS build
+FROM floryn90/hugo:0.168.0-ext AS build
 
 WORKDIR /src
 
